@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-withdrawal-card {
+  background-color: #150b3e;
+  border-radius: 12px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.profile-first-letter-container {
+  background-color: #c7d2fe;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-letter {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.user-name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sub-heading {
+  color: #585076;
+  font-size: 26px;
+}
+.amount {
+  color: #ffffff;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.withdraw {
+  color: #ffffff;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 450px;
+  list-style-type: none;
+}
